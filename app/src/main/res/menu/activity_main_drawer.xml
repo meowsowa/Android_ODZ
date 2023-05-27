@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Пам'ятки історичні">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_churches"
+                android:title="Церкви" />
+            <item
+                android:id="@+id/nav_temples"
+                android:title="Храми" />
+            <item
+                android:id="@+id/nav_monuments"
+                android:title="Пам'ятники" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Пам'ятки природні">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_parks"
+                android:title="Парки" />
+            <item
+                android:id="@+id/nav_squares"
+                android:title="Сквери" />
+            <item
+                android:id="@+id/nav_alley"
+                android:title="Алеї" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Пам'ятки культурні">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_museums"
+                android:title="Музеї" />
+            <item
+                android:id="@+id/nav_theaters"
+                android:title="Театри" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Пам'ятки індустріальні">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_bridges"
+                android:title="Мости" />
+            <item
+                android:id="@+id/nav_murala"
+                android:title="Мурали" />
+            <item
+                android:id="@+id/nav_square"
+                android:title="Площі" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
